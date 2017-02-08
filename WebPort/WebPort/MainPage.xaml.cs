@@ -25,9 +25,16 @@ namespace WebPort
             //Navigation.PushAsync(content);
             NavigationPage.SetHasNavigationBar(this, false);
             NavigationPage.SetHasBackButton(this, false);
-           
+        }
 
+        void webOnNavigating(object sender, WebNavigatingEventArgs e)
+        {
+            LoadingLabel.IsVisible = true;
+        }
 
+        void webOnEndNavigating(object sender, WebNavigatedEventArgs e)
+        {
+            LoadingLabel.IsVisible = false;
         }
 
         async void FooterMainClicked(object sender, EventArgs args)
@@ -42,7 +49,8 @@ namespace WebPort
         async void BackClicked(object sender, EventArgs args)
         {
             WebView wv = this.MyWeb;
-            await Navigation.PopAsync();
+            wv.Source = "http://google.ca";
+  //          await Navigation.PopAsync();
             //if (wv.CanGoBack)
             //{
             //    wv.GoBack();

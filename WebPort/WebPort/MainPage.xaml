@@ -19,13 +19,16 @@
   </ContentPage.Resources>
 
   <ContentPage.Content>
+
     <Grid>
       <Grid.RowDefinitions>
         <RowDefinition Height="*" />
         <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
       </Grid.RowDefinitions>
-      <WebView x:Name="MyWeb" Source="http://winecouncilofontario.ca/" />
+      <WebView x:Name="MyWeb" Source="http://winecouncilofontario.ca/" Navigating="webOnNavigating" Navigated="webOnEndNavigating" />
       <StackLayout Grid.Row="1" Style="{StaticResource footerContainer}">
+      <Label x:Name="LoadingLabel"  Grid.Row="2" Text="Loading..." IsVisible="False" />
         <Grid HorizontalOptions="CenterAndExpand">
           <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

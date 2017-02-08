@@ -20,6 +20,9 @@ namespace WebPort {
         private global::Xamarin.Forms.WebView MyWeb;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label LoadingLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button ftrMain;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -32,6 +35,7 @@ namespace WebPort {
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
             MyWeb = this.FindByName<global::Xamarin.Forms.WebView>("MyWeb");
+            LoadingLabel = this.FindByName<global::Xamarin.Forms.Label>("LoadingLabel");
             ftrMain = this.FindByName<global::Xamarin.Forms.Button>("ftrMain");
             ftrAbout = this.FindByName<global::Xamarin.Forms.Button>("ftrAbout");
             Back = this.FindByName<global::Xamarin.Forms.Button>("Back");
