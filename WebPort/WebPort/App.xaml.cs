@@ -20,6 +20,9 @@ namespace WebPort
             MainPage = nav;
         }
 
+
+        public static string webURL = "http://winecouncilofontario.ca/";
+
         protected override void OnStart()
         {
             // Handle when your app starts

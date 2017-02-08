@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:WebPort"
              x:Class="WebPort.MainPage"
-             BackgroundColor="{StaticResource ColourWhite}"
+             BackgroundColor="{StaticResource WebBgColour}"
              Title="Main">
 
   <ContentPage.Padding>
@@ -24,11 +24,10 @@
       <Grid.RowDefinitions>
         <RowDefinition Height="*" />
         <RowDefinition Height="Auto" />
-        <RowDefinition Height="Auto" />
       </Grid.RowDefinitions>
-      <WebView x:Name="MyWeb" Source="http://winecouncilofontario.ca/" Navigating="webOnNavigating" Navigated="webOnEndNavigating" />
+        <Label  Grid.Row="0" x:Name="LoadingLabel"  Text="Loading..." IsVisible="False" />
+        <WebView  Grid.Row="0" x:Name="MyWeb" Source="" Navigating="webOnNavigating" Navigated="webOnEndNavigating" />
       <StackLayout Grid.Row="1" Style="{StaticResource footerContainer}">
-      <Label x:Name="LoadingLabel"  Grid.Row="2" Text="Loading..." IsVisible="False" />
         <Grid HorizontalOptions="CenterAndExpand">
           <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -36,12 +35,10 @@
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="5*" />
             <ColumnDefinition Width="5*" />
-            <ColumnDefinition Width="5*" />
           </Grid.ColumnDefinitions>
           
           <Button Grid.Column="0" Text="Main" x:Name="ftrMain" Style="{StaticResource footerButton}" Clicked="FooterMainClicked" />
           <Button Grid.Column="1" Text="About" x:Name="ftrAbout" Style="{StaticResource footerButton}" Clicked="FooterAboutClicked" />
-          <Button Grid.Column="2" Text="Back" x:Name="Back" Style="{StaticResource footerButton}" Clicked="BackClicked" />
         </Grid>
       </StackLayout>
     </Grid>

@@ -16,6 +16,7 @@
       <OnPlatform x:Key="ColourWhite" x:TypeArguments="Color" Android="#fff" WinPhone="#fff" iOS="#fff" />
       <OnPlatform x:Key="ColourBlack" x:TypeArguments="Color" Android="#000" WinPhone="#000" iOS="#000" />
       <OnPlatform x:Key="ColourGray" x:TypeArguments="Color" Android="#454545" WinPhone="#454545" iOS="#454545" />
+      <OnPlatform x:Key="WebBgColour" x:TypeArguments="Color" Android="#454545" WinPhone="#454545" iOS="#454545" />
       <OnPlatform x:Key="EditColour" x:TypeArguments="Color" Android="#000" WinPhone="#000" iOS="#000" />
       <OnPlatform x:Key="BtnTxtColor" x:TypeArguments="Color" Android="#fff" WinPhone="#fff" iOS="#fff" />
       <OnPlatform x:Key="BtnBgColor" x:TypeArguments="Color" Android="#3392b5" WinPhone="#3392b5" iOS="#3392b5" />

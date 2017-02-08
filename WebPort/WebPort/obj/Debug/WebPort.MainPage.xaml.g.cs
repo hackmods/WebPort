@@ -17,10 +17,10 @@ namespace WebPort {
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.WebView MyWeb;
+        private global::Xamarin.Forms.Label LoadingLabel;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label LoadingLabel;
+        private global::Xamarin.Forms.WebView MyWeb;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button ftrMain;
@@ -29,16 +29,12 @@ namespace WebPort {
         private global::Xamarin.Forms.Button ftrAbout;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button Back;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
-            MyWeb = this.FindByName<global::Xamarin.Forms.WebView>("MyWeb");
             LoadingLabel = this.FindByName<global::Xamarin.Forms.Label>("LoadingLabel");
+            MyWeb = this.FindByName<global::Xamarin.Forms.WebView>("MyWeb");
             ftrMain = this.FindByName<global::Xamarin.Forms.Button>("ftrMain");
             ftrAbout = this.FindByName<global::Xamarin.Forms.Button>("ftrAbout");
-            Back = this.FindByName<global::Xamarin.Forms.Button>("Back");
         }
     }
 }

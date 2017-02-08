@@ -24,7 +24,7 @@
         <RowDefinition Height="*" />
         <RowDefinition Height="Auto" />
       </Grid.RowDefinitions>
-      <WebView x:Name="MyWeb" Source="http://winecouncilofontario.ca/about/" />
+      <WebView Grid.Row="0" x:Name="MyWeb" Source="" />
      <StackLayout Grid.Row="1" Style="{StaticResource footerContainer}">
         <Grid HorizontalOptions="CenterAndExpand">
           <Grid.RowDefinitions>

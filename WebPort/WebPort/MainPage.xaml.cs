@@ -25,6 +25,7 @@ namespace WebPort
             //Navigation.PushAsync(content);
             NavigationPage.SetHasNavigationBar(this, false);
             NavigationPage.SetHasBackButton(this, false);
+            MyWeb.Source = App.webURL;
         }
 
         void webOnNavigating(object sender, WebNavigatingEventArgs e)

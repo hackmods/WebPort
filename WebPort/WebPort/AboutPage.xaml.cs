@@ -16,6 +16,8 @@ namespace WebPort
 
             NavigationPage.SetHasNavigationBar(this, false);
             NavigationPage.SetHasBackButton(this, false);
+
+            MyWeb.Source = App.webURL + "about/";
         }
 
         async void FooterMainClicked(object sender, EventArgs args)
