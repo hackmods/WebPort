@@ -12,9 +12,22 @@ namespace WebPort
         public MainPage()
         {
             InitializeComponent();
-
+            //var browser = new WebView
+            //{
+            //    //Source = "http://winecodaveuncilofontario.ca/"
+            //    Source = "http://winecouncilofontario.ca/"
+            //};
+            //// The root page of your application
+            //var content = new ContentPage
+            //{
+            //    Content = browser
+            //};
+            //Navigation.PushAsync(content);
             NavigationPage.SetHasNavigationBar(this, false);
             NavigationPage.SetHasBackButton(this, false);
+
+            
+
         }
 
         async void FooterMainClicked(object sender, EventArgs args)

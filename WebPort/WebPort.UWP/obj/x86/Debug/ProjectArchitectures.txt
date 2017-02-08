@@ -1,2 +1,2 @@
-c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort.UWP\WebPort.UWP.csproj;x86
-c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\WebPort.csproj;neutral
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\WebPort.UWP.csproj;x86
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\WebPort.csproj;neutral
