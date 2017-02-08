@@ -17,16 +17,24 @@ namespace WebPort {
     public partial class AboutPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.WebView MyWeb;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button ftrMain;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button ftrAbout;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button Back;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(AboutPage));
+            MyWeb = this.FindByName<global::Xamarin.Forms.WebView>("MyWeb");
             ftrMain = this.FindByName<global::Xamarin.Forms.Button>("ftrMain");
             ftrAbout = this.FindByName<global::Xamarin.Forms.Button>("ftrAbout");
+            Back = this.FindByName<global::Xamarin.Forms.Button>("Back");
         }
     }
 }

@@ -24,7 +24,7 @@
         <RowDefinition Height="*" />
         <RowDefinition Height="Auto" />
       </Grid.RowDefinitions>
-      <WebView Source="http://winecouncilofontario.ca/" />
+      <WebView x:Name="MyWeb" Source="http://winecouncilofontario.ca/" />
       <StackLayout Grid.Row="1" Style="{StaticResource footerContainer}">
         <Grid HorizontalOptions="CenterAndExpand">
           <Grid.RowDefinitions>
@@ -33,10 +33,12 @@
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="5*" />
             <ColumnDefinition Width="5*" />
+            <ColumnDefinition Width="5*" />
           </Grid.ColumnDefinitions>
           
           <Button Grid.Column="0" Text="Main" x:Name="ftrMain" Style="{StaticResource footerButton}" Clicked="FooterMainClicked" />
           <Button Grid.Column="1" Text="About" x:Name="ftrAbout" Style="{StaticResource footerButton}" Clicked="FooterAboutClicked" />
+          <Button Grid.Column="2" Text="Back" x:Name="Back" Style="{StaticResource footerButton}" Clicked="BackClicked" />
         </Grid>
       </StackLayout>
     </Grid>

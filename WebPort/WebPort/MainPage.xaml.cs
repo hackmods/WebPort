@@ -25,8 +25,8 @@ namespace WebPort
             //Navigation.PushAsync(content);
             NavigationPage.SetHasNavigationBar(this, false);
             NavigationPage.SetHasBackButton(this, false);
+           
 
-            
 
         }
 
@@ -38,6 +38,16 @@ namespace WebPort
         async void FooterAboutClicked(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new AboutPage());
+        }
+        async void BackClicked(object sender, EventArgs args)
+        {
+            WebView wv = this.MyWeb;
+            await Navigation.PopAsync();
+            //if (wv.CanGoBack)
+            //{
+            //    wv.GoBack();
+            //}
+            //await Navigation.PushAsync(new AboutPage());
         }
     }
 }

@@ -27,5 +27,15 @@ namespace WebPort
         {
             await Navigation.PushAsync(new AboutPage());
         }
+        async void BackClicked(object sender, EventArgs args)
+        {
+            WebView wv = this.MyWeb;
+            await Navigation.PopAsync();
+            //if (wv.CanGoBack)
+            //{
+            //    wv.GoBack();
+            //}
+            //await Navigation.PushAsync(new AboutPage());
+        }
     }
 }

@@ -46,7 +46,3 @@ C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.App.
 C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.AboutPage.xaml.g.cs
 C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.dll
 C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.pdb
-C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.dll.mdb
-C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\WebPort.dll.mdb
-C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.dll.mdb
-C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\WebPort.dll.mdb
