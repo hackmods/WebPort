@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages/Xamarin.Forms.2.2.0.45/build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10
+/WebPort/WebPort/bin/Debug
+/WebPort/WebPort.Droid/obj/Debug
+/WebPort/WebPort.iOS/obj/iPhone/Debug
+/WebPort/WebPort.UWP/bin/x86/Debug

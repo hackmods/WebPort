@@ -1,0 +1,16 @@
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\WebPort.dll
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\WebPort.pdb
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\obj\Debug\WebPort.csprojResolveAssemblyReference.cache
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\obj\Debug\WebPort.MainPage.xaml.g.cs
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\obj\Debug\WebPort.App.xaml.g.cs
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\obj\Debug\WebPort.AboutPage.xaml.g.cs
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\obj\Debug\WebPort.dll
+c:\users\rmorris\documents\visual studio 2015\Projects\WebPort\WebPort\WebPort\obj\Debug\WebPort.pdb
