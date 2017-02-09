@@ -16,7 +16,7 @@
       <OnPlatform x:Key="ColourWhite" x:TypeArguments="Color" Android="#fff" WinPhone="#fff" iOS="#fff" />
       <OnPlatform x:Key="ColourBlack" x:TypeArguments="Color" Android="#000" WinPhone="#000" iOS="#000" />
       <OnPlatform x:Key="ColourGray" x:TypeArguments="Color" Android="#454545" WinPhone="#454545" iOS="#454545" />
-      <OnPlatform x:Key="WebBgColour" x:TypeArguments="Color" Android="#454545" WinPhone="#454545" iOS="#454545" />
+      <OnPlatform x:Key="WebBgColour" x:TypeArguments="Color" Android="#455372" WinPhone="#455372" iOS="#455372" />
       <OnPlatform x:Key="EditColour" x:TypeArguments="Color" Android="#000" WinPhone="#000" iOS="#000" />
       <OnPlatform x:Key="BtnTxtColor" x:TypeArguments="Color" Android="#fff" WinPhone="#fff" iOS="#fff" />
       <OnPlatform x:Key="BtnBgColor" x:TypeArguments="Color" Android="#3392b5" WinPhone="#3392b5" iOS="#3392b5" />
@@ -39,6 +39,14 @@
         <Setter Property="HorizontalOptions" Value="Center"/>
       </Style>
 
+      <Style x:Key="BrowserText" TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="TextColor" Value="#E0E9E9"/>
+        <!--  <Setter Property="Margin" Value="10,0,10,0"/> -->
+      </Style>
+
+      
       <Style x:Key="likeButtons" TargetType="Button"  BasedOn="{StaticResource blueButtons}">
         <Setter Property="VerticalOptions" Value="Fill"/>
         <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
@@ -49,7 +57,7 @@
       <!-- Footer Styling -->
       <Style x:Key="footerContainer" TargetType="StackLayout">
         <Setter Property="Orientation" Value="Horizontal"/>
-        <Setter Property="BackgroundColor" Value="#fff"/>
+        <Setter Property="BackgroundColor" Value="#616A7F"/>
         <Setter Property="Padding" Value="5,5"/>
       </Style>
 

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:WebPort"
              x:Class="WebPort.AboutPage"
-             BackgroundColor="{StaticResource ColourWhite}"
+             BackgroundColor="{StaticResource WebBgColour}"
              Title="About">
   
   <ContentPage.Padding>
