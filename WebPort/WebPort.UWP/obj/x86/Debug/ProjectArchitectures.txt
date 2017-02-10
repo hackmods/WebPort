@@ -1,0 +1,2 @@
+C:\Users\hackmods\Documents\GitHub\WebPort\WebPort\WebPort.UWP\WebPort.UWP.csproj;x86
+C:\Users\hackmods\Documents\GitHub\WebPort\WebPort\WebPort\WebPort.csproj;neutral

@@ -20,8 +20,15 @@ namespace WebPort
             MainPage = nav;
         }
 
+        //control local vs online webpages
+        public static bool isOnline = true;
+        public static bool isSettingsOnline = false;
 
         public static string webURL = "http://winecouncilofontario.ca/";
+
+        //ToDo: Implement local file support
+        //https://developer.xamarin.com/guides/xamarin-forms/user-interface/webview/
+        public static string localURL = "";
 
         protected override void OnStart()
         {

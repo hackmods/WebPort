@@ -25,20 +25,25 @@
         <RowDefinition Height="Auto" />
       </Grid.RowDefinitions>
       <WebView Grid.Row="0" x:Name="MyWeb" Source="" />
+      <ScrollView Grid.Row="0" IsVisible="false" >
+        <Label x:Name="LoadingLabel"  Style="{StaticResource BrowserText}" Text="Loading about info" />
+      </ScrollView>
      <StackLayout Grid.Row="1" Style="{StaticResource footerContainer}">
-        <Grid HorizontalOptions="CenterAndExpand">
-          <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-          </Grid.RowDefinitions>
-          <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="5*" />
-            <ColumnDefinition Width="5*" />
-            <ColumnDefinition Width="5*" />
-          </Grid.ColumnDefinitions>
-          <Button Grid.Column="0" Text="Main" x:Name="ftrMain" Style="{StaticResource footerButton}" Clicked="FooterMainClicked" />
-          <Button Grid.Column="1" Text="About" x:Name="ftrAbout" Style="{StaticResource footerButton}" Clicked="FooterAboutClicked" />
-          <Button Grid.Column="2" Text="Back" x:Name="Back" Style="{StaticResource footerButton}" Clicked="BackClicked" />
-        </Grid>
+       <Grid HorizontalOptions="CenterAndExpand">
+         <Grid.RowDefinitions>
+           <RowDefinition Height="Auto"/>
+         </Grid.RowDefinitions>
+         <Grid.ColumnDefinitions>
+           <ColumnDefinition Width="100" />
+           <ColumnDefinition Width="100" />
+           <ColumnDefinition Width="100" />
+           <ColumnDefinition Width="100" />
+         </Grid.ColumnDefinitions>
+         <Button Grid.Column="0" Text="Back" x:Name="ftrBack" Style="{StaticResource footerButton}" Clicked="FooterBackClicked" />
+         <Button Grid.Column="1" Text="Main" x:Name="ftrMain" Style="{StaticResource footerButton}" Clicked="FooterMainClicked" />
+         <Button Grid.Column="2" Text="About" x:Name="ftrAbout" Style="{StaticResource footerButton}" Clicked="FooterAboutClicked" />
+         <Button Grid.Column="3" Text="Forward" x:Name="ftrForward" Style="{StaticResource footerButton}" Clicked="FooterForwardClicked" />
+       </Grid>
       </StackLayout>
     </Grid>
   </ContentPage.Content>

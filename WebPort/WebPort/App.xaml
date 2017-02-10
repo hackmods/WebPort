@@ -59,15 +59,16 @@
         <Setter Property="Orientation" Value="Horizontal"/>
         <Setter Property="BackgroundColor" Value="#616A7F"/>
         <Setter Property="Padding" Value="5,5"/>
+        <Setter Property="Margin" Value="5,0,5,5"/>
       </Style>
 
       <Style x:Key="footerButton" TargetType="Button">
         <Setter Property="FontSize" Value="{StaticResource SizeTiny}"/>
-        <Setter Property="BackgroundColor" Value="#fff"/>
-        <Setter Property="BorderColor" Value="Transparent"/>
+        <Setter Property="BackgroundColor" Value="#E7E7E7"/>
+        <Setter Property="BorderColor" Value="#2D3956"/> <!-- Transparent-->
         <Setter Property="BorderWidth" Value="0"/>
         <Setter Property="HorizontalOptions" Value="Center"/>
-        <Setter Property="TextColor" Value="{StaticResource ColourGray}"/>
+        <Setter Property="TextColor" Value="#2D3956"/>
       </Style>
     </ResourceDictionary>
   </Application.Resources>
