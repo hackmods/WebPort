@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:WebPort"
+             xmlns:local="clr-namespace:WebPort;assembly=WebPort"
              x:Class="WebPort.AboutPage"
              BackgroundColor="{StaticResource WebBgColour}"
              Title="About">
@@ -38,11 +38,13 @@
            <ColumnDefinition Width="100" />
            <ColumnDefinition Width="100" />
            <ColumnDefinition Width="100" />
+           <ColumnDefinition Width="100" />
          </Grid.ColumnDefinitions>
          <Button Grid.Column="0" Text="Back" x:Name="ftrBack" Style="{StaticResource footerButton}" Clicked="FooterBackClicked" />
          <Button Grid.Column="1" Text="Main" x:Name="ftrMain" Style="{StaticResource footerButton}" Clicked="FooterMainClicked" />
          <Button Grid.Column="2" Text="About" x:Name="ftrAbout" Style="{StaticResource footerButton}" Clicked="FooterAboutClicked" />
          <Button Grid.Column="3" Text="Forward" x:Name="ftrForward" Style="{StaticResource footerButton}" Clicked="FooterForwardClicked" />
+       <local:FontAwesomeIcon Grid.Column="4" Text="{x:Static local:FontAwesomeIcon.Plus}"></local:FontAwesomeIcon>
        </Grid>
       </StackLayout>
     </Grid>

@@ -58,8 +58,8 @@ namespace WebPort
 
         void FooterAboutClicked(object sender, EventArgs args)
         {
-           // await Navigation.PushAsync(new AboutPage());
-           //ToDo
+            // await Navigation.PushAsync(new AboutPage());
+            //ToDo
         }
 
         void FooterForwardClicked(object sender, EventArgs args)

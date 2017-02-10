@@ -17,6 +17,7 @@ namespace WebPort
             //https://forums.xamarin.com/discussion/18385/pushasync-is-not-supported-globally-on-ios-please-use-a-navigationpage
 
             var nav = new NavigationPage(new MainPage());
+          ///   var nav = new NavigationPage(new AboutPage());
             MainPage = nav;
         }
 
@@ -24,7 +25,9 @@ namespace WebPort
         public static bool isOnline = true;
         public static bool isSettingsOnline = false;
 
-        public static string webURL = "http://winecouncilofontario.ca/";
+        // public static string webURL = "http://winecouncilofontario.ca/";
+        public static string webURL = "https://www.ptlevel.com/secure/";
+
 
         //ToDo: Implement local file support
         //https://developer.xamarin.com/guides/xamarin-forms/user-interface/webview/

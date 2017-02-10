@@ -25,6 +25,7 @@
         <RowDefinition Height="*" />
         <RowDefinition Height="Auto" />
       </Grid.RowDefinitions>
+
         <Label  Grid.Row="0" x:Name="LoadingLabel"  Style="{StaticResource BrowserText}" Text="Loading website" IsVisible="False" />
         <WebView  Grid.Row="0" x:Name="MyWeb" Source="" Navigating="webOnNavigating" Navigated="webOnEndNavigating" />
       <StackLayout Grid.Row="1" Style="{StaticResource footerContainer}">

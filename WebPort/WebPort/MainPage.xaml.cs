@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Plugin.Connectivity;
 
 namespace WebPort
 {
@@ -59,6 +60,32 @@ namespace WebPort
                         </body></html>";
                 MyWeb.Source = htmlSource;
             }
+            //NetworkStatus internetStatus = Reachability.InternetConnectionStatus();
+            //       NotReachable, ReachableViaCarrierDataNetwork, ReachableViaWiFiNetwork
+        }
+
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (!CrossConnectivity.Current.IsConnected)
+            {
+                await DisplayAlert("Error", "Check for your connection", "Ok");
+            }
+
+            CrossConnectivity.Current.ConnectivityChanged += Current_ConnectivityChanged;
+        }
+
+        private async void Current_ConnectivityChanged(object sender, Plugin.Connectivity.Abstractions.ConnectivityChangedEventArgs e)
+        {
+            if (e.IsConnected)
+            {
+                await DisplayAlert("Error", "Check for your connection", "Ok");
+            }
+            else
+            {
+
+            }
         }
 
         void webOnNavigating(object sender, WebNavigatingEventArgs e)
@@ -76,7 +103,7 @@ namespace WebPort
         void FooterMainClicked(object sender, EventArgs args)
         {
             //  await Navigation.PushAsync(new MainPage());         
-                MyWeb.Source = App.webURL;
+            MyWeb.Source = App.webURL;
         }
 
         async void FooterAboutClicked(object sender, EventArgs args)
