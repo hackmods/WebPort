@@ -26,15 +26,15 @@ namespace WebPort
         }
 
         public static string Plus = "\uf067";
-
+        public static string Globe = "";
         /// <summary>
         /// Get more icons from http://fortawesome.github.io/Font-Awesome/cheatsheet/
         /// Tip: Just copy and past the icon picture here to get the icon
         /// </summary>
         public static class Icon
         {
-            public static readonly string Gear = "";
-            public static readonly string Globe = "";
+            public static string Gear = "";
+            public static string Globe = "";
             public static string Search = "\uf002";
             public static string Plus = "\uf067";
         }

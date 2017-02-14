@@ -58,7 +58,14 @@ namespace WebPort
                         <h1 class='ser'>htmlSource</h1>
                          <p class='sans'>A local way to write up some html syntax.</p>
                         </body></html>";
-                MyWeb.Source = htmlSource;
+                //  MyWeb.Source = htmlSource;
+
+                //get file from file system
+                HtmlWebViewSource htmlFileSource = new HtmlWebViewSource {
+                    Html = "<html><body>Hello World! Hello World! Hello World!</body></html>"
+                };
+                htmlFileSource.BaseUrl = DependencyService.Get<IBaseUrl>().Get();// + "/local.html";
+                MyWeb.Source = htmlFileSource;
             }
             //NetworkStatus internetStatus = Reachability.InternetConnectionStatus();
             //       NotReachable, ReachableViaCarrierDataNetwork, ReachableViaWiFiNetwork

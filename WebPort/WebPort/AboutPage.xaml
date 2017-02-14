@@ -26,7 +26,7 @@
       </Grid.RowDefinitions>
       <WebView Grid.Row="0" x:Name="MyWeb" Source="" />
       <ScrollView Grid.Row="0" IsVisible="false" >
-        <Label x:Name="LoadingLabel"  Style="{StaticResource BrowserText}" Text="Loading about info" />
+        <Label x:Name="LoadingLabel"  Style="{StaticResource BrowserText}" Text="Loading" />
       </ScrollView>
      <StackLayout Grid.Row="1" Style="{StaticResource footerContainer}">
        <Grid HorizontalOptions="CenterAndExpand">
@@ -38,13 +38,12 @@
            <ColumnDefinition Width="100" />
            <ColumnDefinition Width="100" />
            <ColumnDefinition Width="100" />
-           <ColumnDefinition Width="100" />
          </Grid.ColumnDefinitions>
          <Button Grid.Column="0" Text="Back" x:Name="ftrBack" Style="{StaticResource footerButton}" Clicked="FooterBackClicked" />
          <Button Grid.Column="1" Text="Main" x:Name="ftrMain" Style="{StaticResource footerButton}" Clicked="FooterMainClicked" />
          <Button Grid.Column="2" Text="About" x:Name="ftrAbout" Style="{StaticResource footerButton}" Clicked="FooterAboutClicked" />
          <Button Grid.Column="3" Text="Forward" x:Name="ftrForward" Style="{StaticResource footerButton}" Clicked="FooterForwardClicked" />
-       <local:FontAwesomeIcon Grid.Column="4" Text="{x:Static local:FontAwesomeIcon.Plus}"></local:FontAwesomeIcon>
+       <!--<local:FontAwesomeIcon Grid.Column="4" Text="{x:Static local:FontAwesomeIcon.Globe}"></local:FontAwesomeIcon>-->
        </Grid>
       </StackLayout>
     </Grid>
