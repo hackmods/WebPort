@@ -1002,3 +1002,6 @@ C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\obj\x86\Debug\qual
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\local.html
+C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Assets\local.html
+C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\style.css

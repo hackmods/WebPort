@@ -84,3 +84,5 @@ C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.Abou
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.dll
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.pdb
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.csprojResolveAssemblyReference.cache
+C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\bin\Debug\local.html
+C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\bin\Debug\style.css

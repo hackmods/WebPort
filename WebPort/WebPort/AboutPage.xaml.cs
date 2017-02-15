@@ -21,12 +21,12 @@ namespace WebPort
 
             if (App.isSettingsOnline)
             {
-                webURL = App.webURL + "about/";
+                webURL = App.aboutURL;
                 MyWeb.Source = webURL;
             }
             else
             {
-                //   localURL = App.localURL;
+                //localURL = App.localURL;
                 var htmlSource = new HtmlWebViewSource();
                 htmlSource.Html = @"<html>
                             <head>

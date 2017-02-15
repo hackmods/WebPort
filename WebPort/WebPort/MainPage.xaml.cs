@@ -6,9 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Plugin.Connectivity;
+using System.IO;
+using System.Reflection;
 
 namespace WebPort
 {
+
     public partial class MainPage : ContentPage
     {
         string webURL = "";
@@ -40,7 +43,7 @@ namespace WebPort
             {
                 //   localURL = App.localURL;
                 var htmlSource = new HtmlWebViewSource();
-                htmlSource.Html = @"<html>
+             /*   htmlSource.Html = @"<html>
                             <head>
                              <style>
                             body {background-color: #E7E7E7;}
@@ -57,16 +60,50 @@ namespace WebPort
                             <body>
                         <h1 class='ser'>htmlSource</h1>
                          <p class='sans'>A local way to write up some html syntax.</p>
-                        </body></html>";
+                        </body></html>"; */
+
                 //  MyWeb.Source = htmlSource;
 
+                /*
                 //get file from file system
-                HtmlWebViewSource htmlFileSource = new HtmlWebViewSource {
-                    Html = "<html><body>Hello World! Hello World! Hello World!</body></html>"
+                var assembly = typeof(MainPage).GetTypeInfo().Assembly;
+                string fullname = assembly.GetName().FullName;
+                string name = assembly.GetName().Name;
+                var customAttributes = assembly.GetCustomAttributes();
+                //string page = DependencyService.Get<IBaseUrl>().Get();
+                var resourceNames = assembly.GetManifestResourceNames();
+                Stream stream = assembly.GetManifestResourceStream(name + ".local.html");
+                string rawHtml = "";
+                using (var reader = new System.IO.StreamReader(stream))
+                {
+                    rawHtml = reader.ReadToEnd();
+                }
+
+                HtmlWebViewSource htmlFileSource = new HtmlWebViewSource
+                {
+                    Html = rawHtml  //"<html><body>Hello World! Hello World! Hello World!</body></html>"
                 };
                 htmlFileSource.BaseUrl = DependencyService.Get<IBaseUrl>().Get();// + "/local.html";
                 MyWeb.Source = htmlFileSource;
+                */
+
+             htmlSource.Html = @"<html>
+            <head>
+            <link rel=""stylesheet"" href=""style.css"">
+            </head>
+            <body>
+            <h1>Xamarin.Forms</h1>
+            <p>The CSS and image are loaded from local files!</p>
+            <img src='XamarinLogo.png'/>
+            <p><a href=""local.html"">next page</a></p>
+            </body>
+            </html>";
+             htmlSource.BaseUrl = DependencyService.Get<IBaseUrl>().Get();
+
+
+                MyWeb.Source = htmlSource;
             }
+
             //NetworkStatus internetStatus = Reachability.InternetConnectionStatus();
             //       NotReachable, ReachableViaCarrierDataNetwork, ReachableViaWiFiNetwork
         }
