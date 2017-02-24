@@ -22,7 +22,7 @@ namespace WebPort
         }
 
         //control local vs online webpages
-        public static bool isOnline = true; // true
+        public static bool isOnline = false; // true
         public static bool isSettingsOnline = false;
 
         public static string webURL = "https://www.ptlevel.com/secure/";

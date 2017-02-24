@@ -83,6 +83,7 @@ C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.App.
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.AboutPage.xaml.g.cs
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.dll
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.pdb
-C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.csprojResolveAssemblyReference.cache
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\bin\Debug\local.html
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\bin\Debug\style.css
+C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.dll.mdb
+C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\bin\Debug\WebPort.dll.mdb
