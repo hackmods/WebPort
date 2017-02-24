@@ -100,11 +100,11 @@ namespace WebPort
             <p><a href=""local.html"">next page</a></p>
             </body>
             </html>";
-          //   htmlSource.BaseUrl = DependencyService.Get<IBaseUrl>().Get();
+           htmlSource.BaseUrl = DependencyService.Get<IBaseUrl>().Get();
 
-             //   browser.Source = htmlSource;
+              // browser.Source = htmlSource;
               //  MyWeb = browser;
-               // MyWeb.Source = htmlSource;
+               MyWeb.Source = htmlSource;
             }
 
             //NetworkStatus internetStatus = Reachability.InternetConnectionStatus();
