@@ -1,2 +1,2 @@
-C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\WebPort.UWP.csproj;x86
-C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\WebPort.csproj;neutral
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\WebPort.UWP.csproj;x86
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\WebPort.csproj;neutral

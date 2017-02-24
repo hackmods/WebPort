@@ -1,9 +1,6 @@
 ﻿using Foundation;
-using System;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.Text;
 using WebPort.iOS;
+using Xamarin.Forms;
 
 [assembly: Dependency(typeof(BaseUrl_iOS))]
 namespace WebPort.iOS

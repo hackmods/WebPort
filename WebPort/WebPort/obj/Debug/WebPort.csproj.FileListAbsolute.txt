@@ -40,7 +40,6 @@ C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Form
 C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.csprojResolveAssemblyReference.cache
 C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.MainPage.xaml.g.cs
 C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.App.xaml.g.cs
 C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\obj\Debug\WebPort.AboutPage.xaml.g.cs
@@ -85,3 +84,12 @@ C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.dll
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\obj\Debug\WebPort.pdb
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\bin\Debug\local.html
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\bin\Debug\style.css
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\local.html
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\style.css
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Plugin.Connectivity.dll
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Plugin.Connectivity.pdb
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Plugin.Connectivity.xml
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\Plugin.Connectivity.Abstractions.xml
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort\bin\Debug\XamarinLogo.png

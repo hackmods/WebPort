@@ -11,6 +11,7 @@ using System.Reflection;
 
 namespace WebPort
 {
+    public class BaseUrlWebView : WebView { }
 
     public partial class MainPage : ContentPage
     {
@@ -42,6 +43,7 @@ namespace WebPort
             else
             {
                 //   localURL = App.localURL;
+                var browser = new BaseUrlWebView(); // temporarily use this so we can custom-render in iOS
                 var htmlSource = new HtmlWebViewSource();
              /*   htmlSource.Html = @"<html>
                             <head>
@@ -98,10 +100,11 @@ namespace WebPort
             <p><a href=""local.html"">next page</a></p>
             </body>
             </html>";
-             htmlSource.BaseUrl = DependencyService.Get<IBaseUrl>().Get();
+          //   htmlSource.BaseUrl = DependencyService.Get<IBaseUrl>().Get();
 
-
-                MyWeb.Source = htmlSource;
+             //   browser.Source = htmlSource;
+              //  MyWeb = browser;
+               // MyWeb.Source = htmlSource;
             }
 
             //NetworkStatus internetStatus = Reachability.InternetConnectionStatus();

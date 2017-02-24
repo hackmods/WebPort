@@ -1006,3 +1006,11 @@ C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\loca
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Assets\local.html
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\style.css
 C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\XamarinLogo.png
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\style.css
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\local.html
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\XamarinLogo.png
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Assets\local.html
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Plugin.Connectivity.dll
+C:\Users\dlopez.CFAV\Source\Repos\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Plugin.Connectivity.pdb
