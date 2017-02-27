@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebPort.App">
+  <!-- 
+             xmlns:local="clr-namespace:WebPort" -->
+  <Application.Resources>
+
+    <!-- Application resource dictionary -->
+    <ResourceDictionary>
+      <!-- Static Linked Values -->
+      <OnPlatform x:Key="SizeTiny" x:TypeArguments="x:String" Android="15" WinPhone="15" iOS="15" />
+      <OnPlatform x:Key="SizeSmall" x:TypeArguments="x:String" Android="18" WinPhone="18" iOS="18" />
+      <OnPlatform x:Key="SizeMed" x:TypeArguments="x:String" Android="21" WinPhone="21" iOS="21" />
+      <OnPlatform x:Key="SizeLarge" x:TypeArguments="x:String" Android="24" WinPhone="24" iOS="24" />
+      <OnPlatform x:Key="ColourWhite" x:TypeArguments="Color" Android="#fff" WinPhone="#fff" iOS="#fff" />
+      <OnPlatform x:Key="ColourBlack" x:TypeArguments="Color" Android="#000" WinPhone="#000" iOS="#000" />
+      <OnPlatform x:Key="ColourGray" x:TypeArguments="Color" Android="#454545" WinPhone="#454545" iOS="#454545" />
+      <OnPlatform x:Key="WebBgColour" x:TypeArguments="Color" Android="#455372" WinPhone="#455372" iOS="#455372" />
+      <OnPlatform x:Key="EditColour" x:TypeArguments="Color" Android="#000" WinPhone="#000" iOS="#000" />
+      <OnPlatform x:Key="BtnTxtColor" x:TypeArguments="Color" Android="#fff" WinPhone="#fff" iOS="#fff" />
+      <OnPlatform x:Key="BtnBgColor" x:TypeArguments="Color" Android="#3392b5" WinPhone="#3392b5" iOS="#3392b5" />
+
+      <OnPlatform x:Key="PaddingTop" x:TypeArguments="Thickness" Android="10,10,10,20" WinPhone="10,10,10,20" iOS="10,10,10,20" />
+      <OnPlatform x:Key="PaddingTopShort" x:TypeArguments="Thickness" Android="10,10,10,0" WinPhone="10,10,10,0" iOS="10,10,10,0" />
+      <OnPlatform x:Key="PaddingTopImg" x:TypeArguments="Thickness" Android="10,10,10,10" WinPhone="10,10,10,10" iOS="10,10,10,10" />
+      <OnPlatform x:Key="PaddingBot" x:TypeArguments="Thickness" Android="10,10,10,0" WinPhone="10,10,10,0" iOS="10,10,10,0" />
+      <OnPlatform x:Key="Margin10" x:TypeArguments="Thickness" Android="10,10,10,10" WinPhone="10,10,10,10" iOS="10,10,10,10" />
+      <OnPlatform x:Key="Margin20" x:TypeArguments="Thickness" Android="20,20,20,20" WinPhone="20,20,20,20" iOS="20,20,20,20" />
+      <OnPlatform x:Key="Margin20W" x:TypeArguments="Thickness" Android="20,0,20,0" WinPhone="20,0,20,0" iOS="20,0,20,0" />
+      <OnPlatform x:Key="Margin10W" x:TypeArguments="Thickness" Android="10,0,10,0" WinPhone="10,0,10,0" iOS="10,0,10,0" />
+      <OnPlatform x:Key="Margin5T" x:TypeArguments="Thickness" Android="0,5,0,0" WinPhone="0,5,0,0" iOS="0,5,0,0" />
+
+      <Style x:Key="blueButtons" TargetType="Button">
+        <Setter Property="FontSize" Value="{StaticResource SizeSmall}"/>
+        <Setter Property="TextColor" Value="{StaticResource BtnTxtColor}"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource BtnBgColor}"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+      </Style>
+
+      <Style x:Key="BrowserText" TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="TextColor" Value="#E0E9E9"/>
+        <!--  <Setter Property="Margin" Value="10,0,10,0"/> -->
+      </Style>
+
+
+      <Style x:Key="likeButtons" TargetType="Button"  BasedOn="{StaticResource blueButtons}">
+        <Setter Property="VerticalOptions" Value="Fill"/>
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <!--  <Setter Property="Margin" Value="10,0,10,0"/> -->
+      </Style>
+
+
+      <!-- Footer Styling -->
+      <Style x:Key="footerContainer" TargetType="StackLayout">
+        <Setter Property="Orientation" Value="Horizontal"/>
+        <Setter Property="BackgroundColor" Value="#616A7F"/>
+        <Setter Property="Padding" Value="5,5"/>
+        <Setter Property="Margin" Value="5,0,5,5"/>
+      </Style>
+
+      <Style x:Key="footerButton" TargetType="Button">
+        <Setter Property="FontSize" Value="{StaticResource SizeTiny}"/>
+        <Setter Property="BackgroundColor" Value="#E7E7E7"/>
+        <Setter Property="BorderColor" Value="#2D3956"/>
+        <!-- Transparent-->
+        <Setter Property="BorderWidth" Value="0"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="TextColor" Value="#2D3956"/>
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>
