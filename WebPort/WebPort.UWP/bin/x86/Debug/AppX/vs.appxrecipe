@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e87458c1-c6f5-4bea-8ec2-a4e0890f5168</PackageIdentityName>
     <PackageIdentityPublisher>CN=dlopez</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-03T15:09:17.741</Modified>
+      <Modified>2017-03-03T15:30:40.620</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\PTLevelApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\PTLevelApp.UWP.exe">
       <PackagePath>entrypoint\PTLevelApp.UWP.exe</PackagePath>
-      <Modified>2017-03-03T15:09:16.873</Modified>
+      <Modified>2017-03-03T15:30:36.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rmorris\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -472,89 +472,89 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2016-12-06T15:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort\bin\Debug\PTLevelApp.dll">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort\bin\Debug\PTLevelApp.dll">
       <PackagePath>PTLevelApp.dll</PackagePath>
-      <Modified>2017-03-03T14:58:41.889</Modified>
+      <Modified>2017-03-03T15:30:32.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\default.css">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\default.css">
       <PackagePath>default.css</PackagePath>
       <Modified>2017-02-27T18:44:08.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\react\static\css\main.082ea12b.css">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\react\static\css\main.082ea12b.css">
       <PackagePath>react\static\css\main.082ea12b.css</PackagePath>
       <Modified>2017-03-03T14:53:19.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\favicon.ico">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\favicon.ico">
       <PackagePath>favicon.ico</PackagePath>
       <Modified>2017-03-03T15:01:07.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\react\favicon.ico">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\react\favicon.ico">
       <PackagePath>react\favicon.ico</PackagePath>
       <Modified>2017-03-03T14:54:52.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\index.html">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\index.html">
       <PackagePath>index.html</PackagePath>
       <Modified>2017-03-03T15:01:07.799</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\local.html">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\local.html">
       <PackagePath>local.html</PackagePath>
       <Modified>2017-03-03T15:02:52.256</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\react\index.html">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\react\index.html">
       <PackagePath>react\index.html</PackagePath>
       <Modified>2017-03-03T15:05:56.658</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-02-27T18:33:27.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-02-27T18:33:27.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-27T18:33:27.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-27T18:33:27.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-27T18:33:27.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-27T18:33:27.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-27T18:33:27.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-02-27T18:33:27.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\XamarinLogo.png">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\XamarinLogo.png">
       <PackagePath>XamarinLogo.png</PackagePath>
       <Modified>2017-02-27T18:45:10.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\react\static\js\main.3508cbb3.js">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\react\static\js\main.3508cbb3.js">
       <PackagePath>react\static\js\main.3508cbb3.js</PackagePath>
       <Modified>2017-03-03T14:53:19.710</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\react\static\media\logo.5d5d9eef.svg">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\react\static\media\logo.5d5d9eef.svg">
       <PackagePath>react\static\media\logo.5d5d9eef.svg</PackagePath>
       <Modified>2017-03-03T14:53:19.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\PTLevelApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\PTLevelApp.UWP.xr.xml">
       <PackagePath>PTLevelApp.UWP.xr.xml</PackagePath>
       <Modified>2017-03-03T13:35:22.985</Modified>
     </AppxPackagedFile>
@@ -570,14 +570,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
       <Modified>2016-12-06T15:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-03T15:09:17.410</Modified>
+      <Modified>2017-03-03T15:30:39.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rmorris\Source\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Core\PTLevelApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\rmorris\Documents\GitHub\WebPort\WebPort\WebPort.UWP\bin\x86\Debug\Core\PTLevelApp.UWP.exe">
       <PackagePath>PTLevelApp.UWP.exe</PackagePath>
-      <Modified>2017-03-03T15:09:17.737</Modified>
+      <Modified>2017-03-03T15:30:40.610</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

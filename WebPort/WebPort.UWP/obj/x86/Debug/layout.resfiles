@@ -6,8 +6,15 @@ Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
-WebPort.UWP.xr.xml
+PTLevelApp.UWP.xr.xml
 default.css
+favicon.ico
+index.html
 local.html
 Properties\Default.rd.xml
+react\favicon.ico
+react\index.html
+react\static\css\main.082ea12b.css
+react\static\js\main.3508cbb3.js
+react\static\media\logo.5d5d9eef.svg
 XamarinLogo.png
