@@ -98,6 +98,8 @@ namespace WebPort
             <p>The CSS and image are loaded from local files!</p>
             <img src='XamarinLogo.png'/>
             <p><a href='local.html'>next page</a></p>
+            <p><a href='react/index.html'>react page</a></p>
+             <p><a href='/react/index.html'>react page</a></p>
             </body>
             </html>";
            htmlSource.BaseUrl = DependencyService.Get<IBaseUrl>().Get();

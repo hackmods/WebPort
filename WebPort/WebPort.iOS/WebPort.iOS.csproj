@@ -8,9 +8,9 @@
     <ProjectGuid>{49CD57BB-81BF-45A0-B5B9-4E9097A7AA98}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>WebPort.iOS</RootNamespace>
+    <RootNamespace>PTLevelApp.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>WebPort.iOS</AssemblyName>
+    <AssemblyName>PTLevelApp.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>

@@ -8,8 +8,8 @@
     <ProjectGuid>{BEE95955-C965-4F87-9F11-00F96BBB94C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebPort</RootNamespace>
-    <AssemblyName>WebPort</AssemblyName>
+    <RootNamespace>PTLevelApp</RootNamespace>
+    <AssemblyName>PTLevelApp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
@@ -70,7 +70,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

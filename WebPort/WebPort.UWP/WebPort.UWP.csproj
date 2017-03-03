@@ -7,8 +7,8 @@
     <ProjectGuid>{113BCDF3-AFB6-45D6-B8B8-1ACBB383DF2D}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebPort.UWP</RootNamespace>
-    <AssemblyName>WebPort.UWP</AssemblyName>
+    <RootNamespace>PTLevelApp.UWP</RootNamespace>
+    <AssemblyName>PTLevelApp.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
@@ -106,10 +106,15 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="react\asset-manifest.json" />
+    <None Include="react\static\css\main.082ea12b.css.map" />
+    <None Include="react\static\js\main.3508cbb3.js.map" />
     <None Include="Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="index.html" />
     <Content Include="local.html" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -119,6 +124,11 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="react\favicon.ico" />
+    <Content Include="react\index.html" />
+    <Content Include="react\static\css\main.082ea12b.css" />
+    <Content Include="react\static\js\main.3508cbb3.js" />
+    <Content Include="react\static\media\logo.5d5d9eef.svg" />
     <Content Include="XamarinLogo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +147,7 @@
       <Name>WebPort</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
